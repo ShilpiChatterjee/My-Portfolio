@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/6369e2e5ad.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div id="header">
+        <div class="container">
+            <nav>
+                <ul id="sidemenu">
+                    <li><a href="#header">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#projects">Projects</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+                <i class="fa-solid fa-bars" id="open-button" onclick="openmenu()"></i>
+                <i class="fa-solid fa-xmark" id="close-button" onclick="closemenu()"></i>
+            </nav>
+            <div class="header-text">
+               
+                    <div class="text">   
+                        <P>UI/UX Developer</P>
+                        <h1>Hi, I'm <span>Shilpi<br>Chatterjee</span></h1></div>
+                    <div id="mypic"> 
+                         <img src="/my-passport.png" >
+                    </div>
+                </div>
+             
+         
+          
+        </div>
+    </div
+
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="passport11.jpg">
+                </div>
+                <div class="about-col-2"> 
+                    <h1 class="sub-title">About Me</h1>
+                    <p class="para">Hello there! I am Shilpi chatterjee,recently completed my Bachelors of Computer Application.<br> I am a UI/UX Developer, passionate about transforming ideas into interactive and user-friendly digital experiences.Throughout my academic journey, I delved into various design projects, honing my skills in user interface design, user experience research, and interaction design.</p>
+                <div class="tab-title">
+                        <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                        <p class="tab-links" onclick="opentab('education')">Education</p>
+                    </div>
+                    <div class="tab-contents active-tab" id="skills">
+                        <ul>
+                            <li><span>html-css</span></li>
+                            <li><span>React</span></li>
+                            <li><span>java</span></li>
+                            <li><span>DBMS</span></li>
+                            <li><span>Sql</span></li>
+                            <li><span>linux-shell scripting</span></li>
+                            <li><span>python</span></li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="education">
+                        <ul>
+                            <li><span>2023</span><br>Bachelor of Computer Application-Asansol Engineering College</li>
+                            <li><span>2020</span><br>Higher Secondary-DAV public School,Dugda</li>
+                            <li><span>2018</span><br>Matriculation-DAV public school,Dugda</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <!-- projects -->
+   
+    <div id="projects">
+        <div class="container">
+            <h1 class="sub-title">My Projects</h1>
+            <div class="projects-list">
+                <div>
+                    <i class="fa-brands fa-react"></i>
+                    <h2>1.Motoemporium</h2>
+                    <p>This is a fullstack Web Development project of a preowned <br>car buy or sell website</p>
+                    <a href="#">learn more</a>
+                </div>
+                <div>
+                    <i class="fa-solid fa-code"></i>
+                    <h2>2.Amazonfrontend</h2>
+                    <p>This is a ui/ux project of frontend part of amazon</p>
+                    <a href="#">learn more</a>
+                </div>
+                <div>
+                    <i class="fa-brands fa-java"></i>
+                    <h2>3.Tik tak toe game</h2>
+                    <p>This is a game build with java</p>
+                    <a href="#">learn more</a>
+                </div>
+                <div>
+                    <i class="fa-brands fa-css3"></i>
+                    <h2>4.Basic Calculator</h2>
+                    <p>A basic Calculator which can perfom basic add<br> ,sub,mul,div,mod using html,css and js.</p>
+                    <a href="#">learn more</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- contact -->
+    <div id="contact">
+        <div class="container">
+            <div class="row">
+                <div class="contact-left">
+                    <h1 class="sub-title">Contact Me</h1>
+                    <p><i class="fa-solid fa-envelope"></i>shilpichatterjee2418@gmail.com</p>
+                    <p><i class="fa-solid fa-square-phone"></i>0124354675</p>
+                    <div class="social-icons">
+                        <a href=""><i class="fa-brands fa-facebook"></i></a>
+                        <a href=""><i class="fa-brands fa-linkedin"></i></a>
+                        <a href=""><i class="fa-brands fa-telegram"></i></a>
+                        <a href=""><i class="fa-brands fa-square-twitter"></i></a>
+                    </div>
+                    <a href="https://drive.google.com/uc?export=download&id=1Dxt_WNyDvoONphVIiC_NMkktMfZBezyh" download><button class="btn btn2"> Download CV </button></a>
+                </div>
+                <div class="contact-right">
+                    <form name="submit-to-google-sheet">
+                        <input type="text" name="Name" placeholder="Your Name" required>
+                        <input type="text" name="Email" placeholder="Your Email" required>
+                        <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                        <button type="submit" class="btn btn2">Submit</button>
+                    </form><br><br><br>
+                    <span id="msg"></span>
+                </div>
+            </div>
+        </div>
+        <div class="copyright">
+            <p>Copyright © Made by shilpi chatterjee</p>
+        </div>
+    </div>
+    <script>
+        var tablinks = document.getElementsByClassName("tab-links");
+        var tabcontents = document.getElementsByClassName("tab-contents");
+        function opentab(tabname){
+            for(tablink of tablinks){
+                tablink.classList.remove("active-link");
+            }
+            for(tabcontent of tabcontents){
+                tabcontent.classList.remove("active-tab");
+            }
+            event.currentTarget.classList.add("active-link");
+            document.getElementById(tabname).classList.add("active-tab");
+        }
+
+    </script>
+<script>
+    var sidemenu = document.getElementById("sidemenu");
+    var openButton = document.getElementById("open-button");
+    var closeButton = document.getElementById("close-button");
+
+    function openmenu() {
+        sidemenu.style.right = "0";
+        closeButton.style.display = "block";
+        openButton.style.display = "none";
+    }
+
+    function closemenu() {
+        sidemenu.style.right = "-200px";
+        closeButton.style.display = "none";
+        openButton.style.display = "block";
+    }
+
+    openButton.addEventListener("click", openmenu);
+    closeButton.addEventListener("click", closemenu);
+
+    // Close the menu when a link is clicked
+    var menuLinks = document.querySelectorAll("#sidemenu a");
+    menuLinks.forEach(function (link) {
+        link.addEventListener("click", function () {
+            closemenu();
+        });
+    });
+</script>
+
+
+
+    <script>
+        const scriptURL = 'https://script.google.com/macros/s/AKfycby85UesCIYdxVdiE7JC07xZtmmMu0nArmtcWkfVYtk_XLUFjSHbpVWDGtZdHIWk5E3g/exec'
+        const form = document.forms['submit-to-google-sheet']
+        const msg = document.getElementById("msg")
+      
+        form.addEventListener('submit', e => {
+          e.preventDefault()
+          fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+            .then(response => {
+                msg.innerHTML = "Message sent successfully"
+                setTimeout(function(){
+                    msg.innerHTML = ""
+                },5000)
+                form.reset()
+            })
+            .catch(error => console.error('Error!', error.message))
+        })
+      </script>
+</body>
+</html>
