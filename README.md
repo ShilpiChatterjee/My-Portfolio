@@ -26,42 +26,11 @@
 
 
 
-<h2>Project Slideshows<h2>
-<h4>Home Page</h4>
-<p></p>
- <div style="display: grid; grid-template-columns: repeat(2,1fr); gap:20px " >
-  <img style="width: 100%;" src="D:\pictures\Screenshots\Screenshot (319).png"alt="">
- </div>
- 
- <h4>Login Page</h4>
-<p></p>
- <div style="display: grid; grid-template-columns: repeat(2,1fr); gap:20px " >
-  <img style="width: 100%;" src="https://i.ibb.co/1q0mhcv/Screenshot-2023-03-15-at-8-00-37-PM.png" alt="">
- </div>
+
 
  
- <h4>Contact Page</h4>
-<p></p>
- <div style="display: grid; grid-template-columns: repeat(2,1fr); gap:20px " >
-  <img style="width: 100%;" src="https://i.ibb.co/1ZTNV1k/Screenshot-2023-03-15-at-8-12-49-PM.png" alt="">
- </div>
- 
- <h4>Loan Page</h4>
-<p></p>
- <div style="display: grid; grid-template-columns: repeat(2,1fr); gap:20px " >
-  <img style="width: 100%;" src="https://i.ibb.co/XWs0L7T/Screenshot-2023-03-15-at-8-12-56-PM.png" alt="">
- </div>
- <h4>Sell Page</h4>
-<p></p>
- <div style="display: grid; grid-template-columns: repeat(2,1fr); gap:20px " >
-  <img style="width: 100%;" src="https://i.ibb.co/QvDNz25/Screenshot-2023-03-15-at-8-13-09-PM.png" alt="">
- </div>
- 
-  <h4>Profile Page</h4>
-<p></p>
- <div style="display: grid; grid-template-columns: repeat(2,1fr); gap:20px " >
-  <img style="width: 100%;" src="https://i.ibb.co/gS2RYHG/Screenshot-2023-03-15-at-8-12-32-PM.png" alt="">
- </div>
+
+  
  
  
   
