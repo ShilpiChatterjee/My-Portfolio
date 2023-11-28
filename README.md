@@ -25,21 +25,11 @@
 <p>Project presentation skill improved.</p>
 
 
-
-
-
- 
-
-  
- 
- 
-  
-
-
-
-
-
-
+<h2>Features</h2>
+<p>Navbar</p>
+<p>Aboutpage-Where my skills and eduacation details are there</p>
+<p>Projects- Where all my projects details are showcased</p>
+<p>Contact page- where the form is linked to the google sheet</p>
 
 <p align="center">
     <img src="https://readme-typing-svg.demolab.com/?lines=Thank You! ; .....Please do rate my Project 😊 👨🏻‍💻;&font=Fira%20Code&center=true&width=440&height=45&color=#37bcf7&vCenter=true&size=22&pause=1000"></a>
